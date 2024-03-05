@@ -47,7 +47,6 @@ exclude:
   - vendor/gems/
   - vendor/ruby/
   - eisvogel.latex
-  - '*.pdf'
   - '*.sh'
   - '*.ps1'
   - README.md

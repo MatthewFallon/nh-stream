@@ -6,6 +6,8 @@ nav_order: 1
 ---
 # New Hope UMC Streams Intro
 
+[download as pdf](nhstream.pdf)
+
 Hello, and thank you for agreeing to help with setting up our weekly streams for New Hope UMC. This guide will quickly run through the steps to setting up the stream and also any issues that may arise from the stream. Each page of this guide is in order to go step by step in the weekly setup for the stream.
 
 ## Call Time
