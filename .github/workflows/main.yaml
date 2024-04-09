@@ -13,14 +13,14 @@ jobs:
     steps:
     - name: Pandoc Latex install
       run: sudo apt-get install pandoc texlive-full
-    - uses: ruby/setup-ruby@v1
-      with:
-        ruby-version: '3.3' # Not needed with a .ruby-version file
-        bundler-cache: true # runs 'bundle install' and caches installed gems automatically
     # - name: Late extras install
     #   run: tlmgr init-usertree && tlmgr install adjustbox babel-german background bidi collectbox csquotes everypage filehook footmisc footnotebackref framed fvextra letltxmacro ly1 mdframed mweights needspace pagecolor sourcecodepro sourcesanspro titling ucharcat ulem unicode-math upquote xecjk xurl zref
     - name: Checkout
       uses: actions/checkout@v4
+    - uses: ruby/setup-ruby@v1
+      with:
+        ruby-version: '3.3' # Not needed with a .ruby-version file
+        bundler-cache: true # runs 'bundle install' and caches installed gems automatically
     - name: Build PDF
       run: pandoc ./index.md ./jobs.md ./power-on.md ./computer.md --from markdown -o nhstream.pdf --template ./eisvogel.latex
     - name: Build Jekyll Site
