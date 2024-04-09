@@ -1,0 +1,37 @@
+name: Build for Netlify
+
+
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  pdfbuild:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Pandoc Latex install
+      run: apt-get install pandoc texlive-latex-extra
+    - name: Late extras install
+      run: tlmgr install adjustbox babel-german background bidi collectbox csquotes everypage filehook footmisc footnotebackref framed fvextra letltxmacro ly1 mdframed mweights needspace pagecolor sourcecodepro sourcesanspro titling ucharcat ulem unicode-math upquote xecjk xurl zref
+    - name: Checkout
+      uses: actions/checkout@v4
+    - name: Build PDF
+      run: pandoc ./index.md ./jobs.md ./power-on.md ./computer.md --from markdown -o nhstream.pdf --template ./eisvogel.latex
+    - name: Build Jekyll Site
+      run: bundle3.0 install && bundle3.0 exec jekyll build
+    - name: Deploy to Netlify
+      uses: jsmrcaga/action-netlify-deploy@v2.0.0
+      with:
+        NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_TOKEN }}
+        NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
+        NETLIFY_DEPLOY_MESSAGE: "Deployed from GitHub action"
+        NETLIFY_DEPLOY_TO_PROD: true
+        build_directory: _site
+        install_command: "echo Skipping installing the dependencies"
+        build_command: "echo Skipping building the web files"
+
+
+
+  
