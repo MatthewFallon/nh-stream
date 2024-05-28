@@ -19,6 +19,7 @@ jobs:
     - name: Build PDF
       run: 	pandoc --data-dir=/var/lib/pandoc --template=eisvogel.latex --pdf-engine=xelatex --from markdown+yaml_metadata_block+smart+backtick_code_blocks+grid_tables --to pdf -o "nhstream.pdf" ./index.md ./jobs.md ./power-on.md ./computer.md 
     - run: ls
+    - run: pwd
     # - name: Upload Artifact
       
 
