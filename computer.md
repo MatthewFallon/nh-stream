@@ -46,25 +46,39 @@ On start up it will list missing files, you can use this to select all the power
 
 Click "Search Directory" and then select the current dates folder in the New Hope Service Folder (Pinned on the side)
 
-It will say something like "49 out of 100" found. if the first number is the same as the second, you will have to reset the slides as it may be missing some above that second number. Go to Set Powerpoint Slides.
+It will say something like "49 out of 100" found. if the first number is the same as the second, you will have to reset the slides as it may be missing some above that second number. Jump to Set Powerpoint Slides.
 
 **REMEMBER** to check if the "Slides found" listed
+
+### Set Projector Output
+
+Next, right click the main video view in the center and select fullscreen projector and the output shown:
+
+![Fullscreen projector output to the TVs]
+
+### Start Stream
+
+Finally, select “2) Intro” and in the upper right of the screen select start stream to connect to facebook, and go back to facebook and select “Go Live” to start the stream:
+
+![Start the Stream and Go Live]
+
+Afterwards, you can return to OBS to run the stream.
 
 ### Set Powerpoint Slides (Optional)
 
 On the side toolbar, select the “4) Powerpoint” Option and then, in the component sections below it, find and double click the “Image Slideshow” hand side to get to the properties to set the images for the powerpoint.
 
-Powerpoint Slides
+![Powerpoint Slides]
 
-Scroll down to the list of images in the slide show, select the first one and press [Ctrl+a] to select all of them. Press the “-“ option on the left to clear them all and then press the “+” and select files to add the new images.
+Scroll down to the list of images in the slide show, select the first one and press [Ctrl+a] to select all of them. Press the “-“ option on the left to clear them all and then press the “+” and select "files" to add the new images.
 
-Reset the images in slideshow
+![Reset the images in slideshow]
 
 Go in to the “New Hope Current Pres” Folder which should open by default, and select all but the first slide from that folder by selecting the first image, pressing Ctrl+a, and then holding Ctrl while clicking the first image again. Finally, select open and click ok in the image slideshow to complete selection.
 
 ### Set Video (Optional)
 
-If the pastor instructs you to use a video during service, you will find the video in the New Hope Service folder under Skits in a folder named for the video. Select “6) Skit Media” and then select the “Video Source” option. Browse for the video and select it to set it.
+If the pastor instructs you to use a video during service, you will find the video in the New Hope Service folder under Skits in a folder named for the video. Select “6) Skit Media” and then select the “Video Source” option. Browse for the video and select it to set it. When playing the video, you must unmute the Realtek Audio speakers to have it play in the sanctuary.
 
 ### Auto Config Wizard (Optional)
 
@@ -77,18 +91,6 @@ Inside of this, click ok until you reach the option for stream key. Double-click
 Paste Stream Key
 
 Click next and agree and wait for it to set the new setting. Click through any dialogs as needed.
-
-### Set Projector Output
-
-Next, right click the “Projector Output Scene” along the bottom and select fullscreen projector and the output shown:
-
-Fullscreen projector output to the TVs
-
-Finally, select “2) Intro”, in the upper right of the screen select start stream to connect to facebook, and go back to facebook and select “Go Live” to start the stream:
-
-Start the Stream and Go Live
-
-Afterwards, you can return to OBS to run the stream.
 
 ## OBS Hotkeys To Use
 
