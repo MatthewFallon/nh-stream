@@ -42,39 +42,41 @@ Before starting OBS, check the Onedrive icon in the bottom toolbar. If it is ful
 
 ### Missing Files
 
-On start up it will list missing files, you can use this to select all the powerpoint slides if they aren't longer than the missing files. 
+On start up it will list missing files, you can use this to select all the powerpoint slides if they aren't more than the missing files. 
+
+![Missing Files](assets/missing-files.png)
 
 Click "Search Directory" and then select the current dates folder in the New Hope Service Folder (Pinned on the side)
 
 It will say something like "49 out of 100" found. if the first number is the same as the second, you will have to reset the slides as it may be missing some above that second number. Jump to Set Powerpoint Slides.
 
-**REMEMBER** to check if the "Slides found" listed
+**REMEMBER** to check if the "Slides found" listed less that total found.
 
 ### Set Projector Output
 
 Next, right click the main video view in the center and select fullscreen projector and the output shown:
 
-![Fullscreen projector output to the TVs]
+![Fullscreen projector output to the TVs](assets/fullscreen-projector.png)
 
 ### Start Stream
 
 Finally, select “2) Intro” and in the upper right of the screen select start stream to connect to facebook, and go back to facebook and select “Go Live” to start the stream:
 
-![Start the Stream and Go Live]
+![Start the Stream and Go Live](assets/Go_Live_On_Facebook.png)
 
 Afterwards, you can return to OBS to run the stream.
 
 ### Set Powerpoint Slides (Optional)
 
-On the side toolbar, select the “4) Powerpoint” Option and then, in the component sections below it, find and double click the “Image Slideshow” hand side to get to the properties to set the images for the powerpoint.
+On the side toolbar, select the “4) Powerpoint” Option and then, in the Sources section next to it, find and double click the “Image Slideshow” hand side to get to the properties to set the images for the powerpoint.
 
-![Powerpoint Slides]
+![Powerpoint Slides](assets/Select_All_Slides.png)
 
 Scroll down to the list of images in the slide show, select the first one and press [Ctrl+a] to select all of them. Press the “-“ option on the left to clear them all and then press the “+” and select "files" to add the new images.
 
-![Reset the images in slideshow]
+![Reset the images in slideshow](assets/select-slides.png)
 
-Go in to the “New Hope Current Pres” Folder which should open by default, and select all but the first slide from that folder by selecting the first image, pressing Ctrl+a, and then holding Ctrl while clicking the first image again. Finally, select open and click ok in the image slideshow to complete selection.
+Go in to the “New Hope Current Pres” Folder which should open by default, and select all but the first slide from that folder by selecting the first image, pressing [Ctrl+a], and then holding [Ctrl] while clicking the first image again. Finally, select open and click ok in the image slideshow to complete selection.
 
 ### Set Video (Optional)
 
@@ -84,11 +86,11 @@ If the pastor instructs you to use a video during service, you will find the vid
 
 If the stream has been performing badly, this can help reset the stream settings. Go to Tools>Auto-Config Wizard on the top bar to prep the stream:
 
-Auto Config Wizard
+![Auto Config Wizard](assets/Auto_Config_Wizard.png)
 
 Inside of this, click ok until you reach the option for stream key. Double-click to higlight the current key and paste to replace with the new one from facebook.
 
-Paste Stream Key
+![Paste Stream Key](assets/Copy_In_Stream_Key.png)
 
 Click next and agree and wait for it to set the new setting. Click through any dialogs as needed.
 
@@ -100,8 +102,8 @@ I’ve set up hotkeys/shortcuts to use while running OBS. To allow the powerpoin
     - Use 2 for the intro before turning on mics or before service starts
     - Use 5 after service or simply leave the camera running until end of stream
     - Use 6 to play a preset video during service with sound on the TVs
-- v - Set the tv output to black. Setting the screens to black can be helpful on initial set up. Make sure to unset it later for service.
+- (not currently included) v - Set the tv output to black. Setting the screens to black can be helpful on initial set up. Make sure to unset it later for service.
 
 - b - Switch between camera and powerpoint view for the TVs. Also used by the powerpoint clicker.
 - < - Used to move backward in the powerpoint.
-- > - Used to move forwards in the powerpoint
+- /> - Used to move forwards in the powerpoint
