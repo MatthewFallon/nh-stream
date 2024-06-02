@@ -12,11 +12,11 @@ To unlock the computer, use the code: `41460085`
 
 ## Startup
 
-All of the programs to start are along the toolbar on the bottom.
+All of the programs to start are along the toolbar on the bottom. ATEM and Firefox will start automatically, just wait.
 
 ## ATEM Control Center
 
-Start by starting the rightmost one the ATEM Control Panel You can close it again after it shows this screen:
+Start by starting the rightmost one the ATEM Control Panel You can minimize it after it shows this screen (It is required to connect the stream board to the computer):
 
 ![ATEM Started](assets/ATEM_Started.png)
 
@@ -26,7 +26,7 @@ Open firefox from the toolbar and it will open to facebook live’s page. Scroll
 
 ![Go Live Option](assets/Go_Live_Selection_Page.png)
 
-First, Press the copy button next to Stream Key to copy the new stream key to the clipboard for later. Then, on the right hand side press the “Choose Image” button to set the thumbnail as shown:
+First, Press the copy button next to Stream Key to copy the new stream key to the clipboard for later. Then, (optional) on the right hand side press the “Choose Image” button to set the thumbnail as shown:
 
 ![Set Thumbnail](assets/Live_Post_Editor.png)
 
@@ -38,27 +38,25 @@ Set any other post details you would like and leave this open in the background 
 
 ## OBS
 
-Start the second from the right program on the toolbar, OBS.
+Before starting OBS, check the Onedrive icon in the bottom toolbar. If it is fully synced, you can start OBS. Start the second from the right program on the toolbar, OBS.
 
-### Setup Wizard
+### Missing Files
 
-On start up it will list missing files, you can skip this notification for now. Go to Tools>Auto-Config Wizard on the top bar to prep the stream:
+On start up it will list missing files, you can use this to select all the powerpoint slides if they aren't longer than the missing files. 
 
-Auto Config Wizard
+Click "Search Directory" and then select the current dates folder in the New Hope Service Folder (Pinned on the side)
 
-Inside of this, click ok until you reach the option for stream key. Double-click to higlight the current key and paste to replace with the new one from facebook.
+It will say something like "49 out of 100" found. if the first number is the same as the second, you will have to reset the slides as it may be missing some above that second number. Go to Set Powerpoint Slides.
 
-Paste Stream Key
+**REMEMBER** to check if the "Slides found" listed
 
-Click next and agree and wait for it to set the new setting.
+### Set Powerpoint Slides (Optional)
 
-### Set Powerpoint Slides
-
-Afterwards, on the bottom toolbar, select the “4) Powerpoint” Option and then double click the “Image Slideshow” on the left hand side to set the images for the powerpoint.
+On the side toolbar, select the “4) Powerpoint” Option and then, in the component sections below it, find and double click the “Image Slideshow” hand side to get to the properties to set the images for the powerpoint.
 
 Powerpoint Slides
 
-Scroll down to the list of images in the slide show, select the first one and press Ctrl+a to select all of them. Press the “-“ option on the left to clear them all and then press the “+” and select files to add the new images.
+Scroll down to the list of images in the slide show, select the first one and press [Ctrl+a] to select all of them. Press the “-“ option on the left to clear them all and then press the “+” and select files to add the new images.
 
 Reset the images in slideshow
 
@@ -67,6 +65,18 @@ Go in to the “New Hope Current Pres” Folder which should open by default, an
 ### Set Video (Optional)
 
 If the pastor instructs you to use a video during service, you will find the video in the New Hope Service folder under Skits in a folder named for the video. Select “6) Skit Media” and then select the “Video Source” option. Browse for the video and select it to set it.
+
+### Auto Config Wizard (Optional)
+
+If the stream has been performing badly, this can help reset the stream settings. Go to Tools>Auto-Config Wizard on the top bar to prep the stream:
+
+Auto Config Wizard
+
+Inside of this, click ok until you reach the option for stream key. Double-click to higlight the current key and paste to replace with the new one from facebook.
+
+Paste Stream Key
+
+Click next and agree and wait for it to set the new setting. Click through any dialogs as needed.
 
 ### Set Projector Output
 

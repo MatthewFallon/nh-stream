@@ -12,7 +12,7 @@ Hello, and thank you for agreeing to help with setting up our weekly streams for
 
 ## Call Time
 
-Please always attempt to arrive 30 minutes before church to begin set up.
+Please always attempt to arrive 30 minutes before church to begin set up. Minimum setup time is about 5-10 minutes depending.
 
 ## Teamviewer / Troubleshooting
 
