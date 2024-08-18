@@ -38,8 +38,8 @@ This role can often be filled by the same person controlling the the stream boar
 
 1. Lectern - Liturgist
 2. Pulpit - Pastor
-3. Front of Altar
-4. Back of Altar - Communion and offering
+3. Front of Altar - Communion and offering
+4. Dan's Sermon Seat
 5. Front of house - Sermon and benediction
 6. Choir and childrens time area
 7. Stained glass 
