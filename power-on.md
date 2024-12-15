@@ -24,23 +24,14 @@ There is a pair of bluetooth headphones that will be plugged in to the wall. Unp
 
 You will find a computer under the desk press the power button to begin powering on.
 
+The computer has a capture card under the desk that will automatically hook up and provide both the sound from the sound system and the video from the camera.
+
+The computer also has its speakers hooked up to the sound system, it is input 1 on the soundboard.
+
 ## All 5 TV’s
 
 You will find a remote on the table that will turn them on. Make sure to double check they are actually on, sometimes turning one on may turn another off accidentally.
 
-## Cameras
+## Camera
 
-First you will need to plug in the camera to the left of the desk. You will plug in the power and HDMI cables and it will be hooked up automatically.
-
-![Camera Plugged In](assets/camera-plugged-in.jpg)
-
-Also, make sure to set relevant setting and zoom on the camera. For the most part the auto settings will work fine other than to zoom in to the right level. You can use this 
-
-## Streaming Board
-
-The streaming board just requires two button presses after turning on:
-
-![Streaming Board](assets/ATEM_Board.jpg)
-
-- The “2” Button in order to prep it for switching between the first two inputs, and the “0.5” Button to set the delay for fading between inputs.
-- Afterwards, you will turn on the mic input 1 in the top left hand corner when streaming to bring in the audio input.
+You will need to press the power button on the remote for the PTZ (pan tilt zoom) camera and wait for it to turn on.
