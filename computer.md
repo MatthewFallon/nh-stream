@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Computer Setup & Use
-date: "03-04-2024"
+date: "12-22-2024"
 nav_order: 4
 ---
 # Computer Setup & Use
@@ -47,6 +47,8 @@ Next, right click the main video view in the center and select fullscreen projec
 ### Start Stream
 
 Go to Settings>Stream and set the "Stream Key" to the key you copied from facebook.
+
+![Stream key settings]()
 
 Finally, select “2) Intro” and in the upper right of the screen select start stream to connect to facebook, and go back to facebook and select “Go Live” to start the stream:
 

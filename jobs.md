@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Jobs During Service
-date: "03-04-2024"
+date: "12-22-2024"
 nav_order: 3
 ---
 # Jobs During Service
