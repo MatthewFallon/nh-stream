@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Cheat Sheet
-date: "12-22-2024"
+date: "22-12-2024"
 nav_order: 5
 ---
 # Cheat Sheet for service

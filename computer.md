@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Computer Setup & Use
-date: "12-22-2024"
+date: "22-12-2024"
 nav_order: 4
 ---
 # Computer Setup & Use
