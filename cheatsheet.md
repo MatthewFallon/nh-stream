@@ -12,11 +12,12 @@ nav_order: 5
 1. Copy Facebook stream key
 1. Open OBS
 1. Set Missing Slides and apply
-    - If found slides more than count, reset slides
+    - If found slides more than count, [reset slides]()
 1. Go to OBS Settings>Stream
 1. Paste Stream Key 
 1. Right click main video view, select [Fullscreen Projector Preview] > [CAT Splitter: 1280x720]
 1. Check sound from headphones
+    - If no sound, reset to "Monitor Off" and back to "Monitor and Output" in [Advanced Audio Properties]()
 1. Start Stream in OBS
 1. Click "Go Live" in Facebook Live
 
