@@ -7,15 +7,15 @@ nav_order: 5
 # Cheat Sheet for service
 
 ## Checklist
-1. Wait for Onedrive to synchronize
 1. Open [Facebook Livestream](computer#firefox--facebook-live) 
 1. Copy Facebook stream key
+1. Wait for Onedrive to synchronize
 1. Open OBS
-1. Set Missing Slides and apply
-    - If found slides more than count, [reset slides]()
+1. Set Missing Slides directory and apply
+    - If found slides more than count, [reset slides](computer#set-powerpoint-slides-optional)
 1. Go to OBS Settings>Stream
 1. Paste Stream Key 
-1. Right click main video view, select [Fullscreen Projector Preview] > [CAT Splitter: 1280x720]
+1. Right click main video view, select [Fullscreen Projector Preview] > [CAT Splitter: 1280x720] to [Set Projector Output](computer#set-projector-output)
 1. Check sound from headphones
     - If no sound, reset to "Monitor Off" and back to "Monitor and Output" in [Advanced Audio Properties]()
 1. Start Stream in OBS
