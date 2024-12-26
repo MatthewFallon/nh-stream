@@ -8,18 +8,18 @@ nav_order: 5
 
 ## Checklist
 1. Open [Facebook Livestream](computer#firefox--facebook-live) 
-1. Copy Facebook stream key
-1. Wait for Onedrive to synchronize
-1. Open OBS
+1. Copy [Facebook stream key](computer#firefox--facebook-live)
+1. Wait for [Onedrive to synchronize](computer#obs)
+1. Open [OBS](computer#obs)
 1. Set Missing Slides directory and apply
-    - If found slides more than count, [reset slides](computer#set-powerpoint-slides-optional)
-1. Go to OBS Settings>Stream
-1. Paste Stream Key 
+    - If the `found slides` is equal to the count you may be missing slides, [set slides](computer#set-powerpoint-slides-optional) and/or optionally reset the slides using the blank 100 folder
 1. Right click main video view, select [Fullscreen Projector Preview] > [CAT Splitter: 1280x720] to [Set Projector Output](computer#set-projector-output)
 1. Check sound from headphones
-    - If no sound, reset to "Monitor Off" and back to "Monitor and Output" in [Advanced Audio Properties]()
-1. Start Stream in OBS
-1. Click "Go Live" in Facebook Live
+    - If no sound, reset to "Monitor Off" and back to "Monitor and Output" in [Advanced Audio Properties](computer#reset-audio-optional)
+1. Go to [OBS Settings>Stream](computer#start-stream)
+1. Paste [Stream Key](computer#start-stream) 
+1. Start Stream in [OBS](computer#start-stream)
+1. Click "Go Live" in [Facebook Live](computer#start-stream)
 
 ## OBS Hotkeys
 

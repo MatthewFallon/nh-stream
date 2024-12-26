@@ -48,7 +48,7 @@ Next, right click the main video view in the center and select fullscreen projec
 
 Go to Settings>Stream and set the "Stream Key" to the key you copied from facebook.
 
-![Stream key settings]()
+![Stream key settings](assets/set-stream-key-obs.png)
 
 Finally, select “2) Intro” and in the upper right of the screen select start stream to connect to facebook, and go back to facebook and select “Go Live” to start the stream:
 
@@ -69,6 +69,14 @@ Scroll down to the list of images in the slide show, select the first one and pr
 Go in to the current date's presentation Folder which should open by default, and select all but the first slide from that folder by selecting the first image, pressing [Ctrl+a], and then holding [Ctrl] while clicking the first image again. Finally, select open and click ok in the image slideshow to complete selection.
 
 To reset it to work with the missing files instead, set the slides to all of the slides in the blank-100-slides folder and then move the folder. This will trick obs into see 100 "missing" files for you to search for.
+
+### Reset Audio (Optional)
+
+If the headphones are not putting through the audio for you to preview, you may have to reset the audio monitor. Go to `Edit>Advanced Audio Properties` and toggle any sources that say `Monitor and Output` to `Monitor Off` and then back. 
+
+![Advanced Audio Properties](assets/advanced-audio-properties.png)
+
+The audio should begin in the headphones. If it does not, go to `Settings>Audio` and scroll to the advanced section and check that the monitoring device drop down is set to the headphones (it may be set to the a grayed out device that is the headphones disabled set it to the headphones that are enabled) and then repeat the above step.
 
 ### Set Video (Optional)
 
