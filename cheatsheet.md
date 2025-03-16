@@ -12,7 +12,7 @@ nav_order: 5
 1. Wait for Onedrive to synchronize [link](computer#obs)
 1. Open OBS [link](computer#obs)
 1. Set Missing Slides directory and apply
-    - If the `found slides` is equal to the count you may be missing slides, set slides [link](computer#set-powerpoint-slides-optional) and/or optionally reset the slides using the blank 100 folder
+    - If the `found slides` is equal to the count you may be missing slides, set slides manually [link](computer#set-powerpoint-slides-optional) and/or optionally reset the slides using the blank 100 folder
 1. Right click main video view, select [Fullscreen Projector Preview] > [CAT Splitter: 1280x720] to Set Projector Output [link](computer#set-projector-output)
 1. Check sound from headphones
     - If no sound, reset to "Monitor Off" and back to "Monitor and Output" in Advanced Audio Properties [link](computer#reset-audio-optional)
