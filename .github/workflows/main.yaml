@@ -14,10 +14,10 @@ jobs:
     steps:
     - name: Checkout
       uses: actions/checkout@v4
-    - run: arr=(index power-on jobs computer cheatsheet)
+    - run: arr=index power-on jobs computer cheatsheet
     - name: Build PDFs
       run: 	|
-        for each in "${arr[@]}"; do
+        for each in "${arr}"; do
           pandoc --data-dir=/var/lib/pandoc --template=eisvogel.latex --pdf-engine=xelatex --from markdown+yaml_metadata_block+smart+backtick_code_blocks+grid_tables --to pdf -o "nhstream-$each.pdf" "$each.md"
         done
     - name: Upload PDF Partials
@@ -28,15 +28,16 @@ jobs:
   
   pdfmerge:
     runs-on: ubuntu-latest
+    needs: pdfbuild
     container: pdftk/pdftk:3.3.3
     steps:
     - name: Download PDF Partials
       uses: actions/download-artifact@v4
       with:
         name: pdf-partials
-    - run: arr=(index power-on jobs computer cheatsheet)
+    - run: arr="index power-on jobs computer cheatsheet"
     - name: Combine PDFs
-      run: pdftk $(printf "nhstream-%s.pdf " "${arr[@]}") cat output nhstream.pdf
+      run: pdftk $(for each in "${arr}"; do printf "nhstream-%s.pdf " "${each}"; done) cat output nhstream.pdf
     - name: Upload PDF
       uses: actions/upload-artifact@v4
       with:
@@ -45,7 +46,7 @@ jobs:
 
   jekyllbuild:
     runs-on: ubuntu-latest
-    needs: pdfbuild
+    needs: pdfmerge
     steps:
     - name: Checkout
       uses: actions/checkout@v4
