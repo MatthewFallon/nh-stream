@@ -15,6 +15,7 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v4
     - run: arr="index power-on jobs computer cheatsheet"
+    - run: echo "${arr}"
     - name: Build PDFs
       run: 	|
         for each in "${arr}"; do
