@@ -7,6 +7,9 @@ on:
     branches:
       - main
 
+env: 
+  arr: index power-on jobs computer cheatsheet
+
 jobs:
   pdfbuild:
     runs-on: ubuntu-latest
@@ -14,7 +17,6 @@ jobs:
     steps:
     - name: Checkout
       uses: actions/checkout@v4
-    - run: arr="index power-on jobs computer cheatsheet"
     - run: echo "${arr}"
     - name: Build PDFs
       run: 	|
@@ -36,7 +38,6 @@ jobs:
       uses: actions/download-artifact@v4
       with:
         name: pdf-partials
-    - run: arr="index power-on jobs computer cheatsheet"
     - name: Combine PDFs
       run: pdftk $(for each in "${arr}"; do printf "nhstream-%s.pdf " "${each}"; done) cat output nhstream.pdf
     - name: Upload PDF
