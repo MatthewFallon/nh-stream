@@ -2,7 +2,7 @@
 
 shopt -s extglob
 
-arr=(index power-on jobs computer cheatsheet)
+arr=(index power-on jobs computer soundboard cheatsheet)
 
 for each in "${arr[@]}"; do
     printf "Converting %s\n" $each

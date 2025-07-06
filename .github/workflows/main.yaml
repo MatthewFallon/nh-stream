@@ -8,7 +8,7 @@ on:
       - main
 
 env: 
-  arr: index power-on jobs computer cheatsheet
+  arr: index power-on jobs computer soundboard cheatsheet
 
 jobs:
   pdfbuild:
